@@ -42,7 +42,7 @@ I deployed my static HTML/CSS site to Azure Blob Storage using the static websit
 **[🌐 View the Live Site](https://crcstoragewe01.z6.web.core.windows.net/)**  
 
 📸 Screenshot:
-![Azure static website hosting](screenshot/stage-4-azure-static-hosting.png)
+![Azure static website hosting](screenshots/stage-4-azure-static-hosting.png)
 
 
 
