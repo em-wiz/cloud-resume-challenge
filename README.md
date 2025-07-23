@@ -15,7 +15,7 @@ This project is part of the Cloud Resume Challenge inspired by [Forrest Brazeal]
 | 1 | **Azure Fundamentals Certification (AZ-900)** | ✅ Done | Passed and certified |
 | 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
-| 4 | **Website Hosted on Azure Blob Storage** | ✅ Done | Static website live |
+| 4 | **Website Hosted on Azure Blob Storage** | ✅ Done | Static site deployed: [Live Site](https://crcstoragewe01.z6.web.core.windows.net//) |
 | 5 | **HTTPS for Azure Storage URL using Azure CDN** | 🔜 Pending | Azure CDN profile created |
 | 6 | **DNS Domain for Azure CDN endpoint** | 🔜 Pending | Custom domain added to Azure CDN endpoint |
 | 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
