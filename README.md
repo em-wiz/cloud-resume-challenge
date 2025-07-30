@@ -35,7 +35,7 @@ This project is part of the Cloud Resume Challenge inspired by [Forrest Brazeal]
 
 # 🌩️ Cloud Resume Challenge (Azure Edition)
 
-This is my implementation of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) by Forest Brazeal — an end-to-end full-stack cloud project designed to demonstrate real-world cloud engineering skills.
+This is my implementation of the [Cloud Resume Challenge](https://https://cloudresumechallenge.dev/docs/the-challenge/azure/) by Forest Brazeal — an end-to-end full-stack cloud project designed to demonstrate real-world cloud engineering skills.
 
 ## 🔗 Current Live Project
 **[🌐 View the Live Site](https://wisdomresume.site/)** 
