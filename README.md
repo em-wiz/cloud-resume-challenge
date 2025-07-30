@@ -58,7 +58,9 @@ Used Azure Blob Storage to host a static website with an `index.html` and `style
 - Uploaded files into the `$web` container
 
 📸 Screenshot:
-- ![Azure static website hosting](screenshots/azure-static-hosting.png)
+
+Azure static website hosting:
+![Azure static website hosting](screenshots/azure-static-hosting.png)
 
 ---
 
@@ -72,8 +74,11 @@ Domain was purchased via Namecheap and pointed to Azure via **Cloudflare**:
 
 📸 Screenshot:
 
-- ![Cloudflare DNS Settings](screenshots/cloudfare-dns-settings.png)
-- ![Namecheap Custom Nameservers](screenshots/namecheap-nameservers.png)
+Cloudflare DNS Settings:
+![Cloudflare DNS Settings](screenshots/cloudfare-dns-settings.png)
+
+Namecheap Custom Nameservers:
+![Namecheap Custom Nameservers](screenshots/namecheap-nameservers.png)
 
 ---
 
