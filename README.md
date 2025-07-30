@@ -16,8 +16,8 @@ This project is part of the Cloud Resume Challenge inspired by [Forrest Brazeal]
 | 2 | **HTML Resume Created** | ✅ Done | `index.html` completed |
 | 3 | **CSS Styling Applied** | ✅ Done | External `styles.css` used |
 | 4 | **Website Hosted on Azure Blob Storage** | ✅ Done | Static site deployed: [Live Site](https://crcstoragewe01.z6.web.core.windows.net//) |
-| 5 | **HTTPS for Azure Storage URL using Azure CDN** | 🔜 Pending | Azure CDN profile created |
-| 6 | **DNS Domain for Azure CDN endpoint** | 🔜 Pending | Custom domain added to Azure CDN endpoint |
+| 5 | **HTTPS for Azure Storage URL using Azure CDN** | ✅ Done | Azure CDN profile created |
+| 6 | **DNS Domain for Azure CDN endpoint** | ✅ Done | Custom domain added to Azure CDN endpoint |
 | 7 | **Frontend JS for Visitor Counter** | 🔜 Pending | Integrate API with resume site |
 | 8 | **Azure Cosmos DB / Table Storage** | 🔜 Pending | Store and retrieve visitor count data |
 | 9 | **Azure Function Backend API (Visitor Counter)** | 🔜 Pending | Will handle API requests |
@@ -33,17 +33,49 @@ This project is part of the Cloud Resume Challenge inspired by [Forrest Brazeal]
 ----------
 
 
+# 🌩️ Cloud Resume Challenge (Azure Edition)
 
-## ✅ Stage 4: Host Resume on Azure Static Website
+This is my implementation of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) by Forest Brazeal — an end-to-end full-stack cloud project designed to demonstrate real-world cloud engineering skills.
 
-I deployed my static HTML/CSS site to Azure Blob Storage using the static website hosting feature.
+## 🔗 Current Live Project
+**[🌐 View the Live Site](https://wisdomresume.site/)** 
 
-## 🔗 Live Project
-**[🌐 View the Live Site](https://crcstoragewe01.z6.web.core.windows.net/)**  
+---
+
+## 📸 Final Deployed Website
+
+**Live Website** In progress..
+
+---
+
+As I take on the Cloud Resume Challenge, I’ve been able to earn the Microsoft AZ-900 certification and I also have some background in frontend web design. I’ve built the first version of my resume website using HTML and CSS, and from here, I’ll be documenting the next steps I’m working through as I continue learning and building.
+
+## 📁 1. Static Website Hosting (Azure Blob Storage)
+
+Used Azure Blob Storage to host a static website with an `index.html` and `styles.css`.
+
+- Enabled static website hosting
+- Uploaded files into the `$web` container
 
 📸 Screenshot:
-![Azure static website hosting](screenshots/stage-4-azure-static-hosting.png)
+- ![Azure static website hosting](screenshots/azure-static-hosting.png)
 
+---
+
+## 🔐 2. HTTPS and Custom Domain (via Cloudflare)
+
+Domain was purchased via Namecheap and pointed to Azure via **Cloudflare**:
+
+- Custom domain `wisdomresume.site`
+- Free SSL with Cloudflare Universal Certificate
+- DNS settings managed on Cloudflare
+
+📸 Screenshot:
+
+- ![Cloudflare DNS Settings](screenshots/cloudfare-dns-settings.png)
+- ![Namecheap Custom Nameservers](screenshots/namecheap-nameservers.png)
+
+---
 
 
 
