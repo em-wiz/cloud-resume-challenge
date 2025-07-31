@@ -54,7 +54,7 @@ As I take on the Cloud Resume Challenge, I’ve been able to earn the Microsoft 
 
 Used Azure Blob Storage to host a static website with an `index.html` and `styles.css`.
 
-- Enabled static website hosting
+- Enabled static website hosting on Azure Storage Account
 - Uploaded files into the `$web` container
 
 📸 Screenshot:
@@ -64,13 +64,16 @@ Azure static website hosting:
 
 ---
 
-## 🔐 2. HTTPS and Custom Domain (via Cloudflare)
+## 🔐 2. HTTPS, and Custom Domain (via Cloudflare)
+
+I opted to use Cloudflare’s CDN instead of Azure CDN because Azure CDN requires a Pay-As-You-Go subscription, which isn't supported under the Free Trial plan I'm currently using for this project. Cloudflare, on the other hand, offers a free CDN service, along with free SSL certificates for custom domains, allowing me to serve my static website securely over HTTPS at no additional cost.
 
 Domain was purchased via Namecheap and pointed to Azure via **Cloudflare**:
 
 - Custom domain `wisdomresume.site`
 - Free SSL with Cloudflare Universal Certificate
 - DNS settings managed on Cloudflare
+
 
 📸 Screenshot:
 
@@ -79,6 +82,26 @@ Cloudflare DNS Settings:
 
 Namecheap Custom Nameservers:
 ![Namecheap Custom Nameservers](screenshots/namecheap-nameservers.png)
+
+
+### 🔎 A Few Things I Noticed (If You're Using a Third-Party CDN Like Cloudflare for HTTPS on Azure Static Sites)
+
+If you want your static website to run smoothly over HTTPS without any issues, here are a few key things to keep in mind:
+
+- ✅ **Ensure "Secure transfer required" is enabled** in your Azure Storage Account settings.  
+  This enforces HTTPS connections to your static site endpoint.
+
+- 🔐 In your **Cloudflare SSL/TLS settings**, set the encryption mode to **Full (Strict)**.  
+  This ensures Cloudflare connects to Azure over HTTPS — which is important because with “secure transfer required” enabled, Azure will reject any HTTP requests. Without this, you may run into the error:
+
+`The account being accessed does not support http.`
+`HttpStatusCode: 400`
+`ErrorCode: AccountRequiresHttps`
+
+
+- ☁️ In your **Cloudflare DNS records**, make sure any CNAME or A record pointing to your Azure endpoint is set to **Proxied** (orange cloud).  
+This allows Cloudflare to properly handle HTTPS and redirects on your behalf.
+
 
 ---
 
